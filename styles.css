@@ -1,0 +1,150 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+html {
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+body {
+  margin: 0;
+  font-size: 100%;
+  font-family: source-sans-pro, sans-serif;
+  color: #413E3E;
+  background-color: #FAFAFA;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+a {
+  text-decoration: none;
+  color: #413E3E;
+  font-weight: bold;
+  -webkit-transition: color .3s ease;
+  -moz-transition: color .3s ease;
+  -o-transition: color .3s ease;
+  -ms-transition: color .3s ease;
+  transition: color .3s ease;
+}
+a:hover {
+  color: #C3523C;
+}
+header {
+  width: 100%;
+  color: white;
+  text-align: center;
+}
+h1,h2,h3,h4 {
+  margin: 0;
+  line-height: 1;
+}
+h3 {
+  margin-top: 6%;
+}
+h3:first-of-type {
+  margin-top: 10%;
+}
+nav {
+  margin: 0 auto;
+  width: 80%;
+  text-align: right;
+}
+nav > a {
+  display: inline-block;
+  padding: 3% 3%;
+  font-size: 1em;
+  text-transform: uppercase;
+}
+footer {
+  margin-top: 10%;
+  padding: 3% 0;
+  color: #A8A4A3;
+  background-color: #F5F1F0;
+  text-align: center;
+}
+footer p {
+  margin-bottom: 0;
+}
+pre,
+code {
+  overflow-x: auto;
+}
+.logo {
+  float: left;
+}
+.title {
+  font-size: 410%;
+  text-transform: uppercase;
+}
+.subtitle {
+  font-weight: 400;
+  padding-right: 7px;
+}
+.container {
+  margin: 5% auto;
+  width: 80%;
+  max-width: 1000px;
+}
+.container:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+.box {
+  padding: 12%;
+  width: 100%;
+}
+.box-red {
+  background-color: #C3523C;
+}
+.info-box {
+  float: left;
+  margin: 2%;
+}
+.button {
+  display: inline-block;
+  font-size: 1em;
+  margin-top: 14%;
+  margin-right: 2%;
+  padding: 2em;
+  color: #F5F1F0;
+  background-color: #C3523C;
+  border: none;
+  -webkit-border-radius: 6px;
+  border-radius: 6px;
+  text-decoration: none;
+}
+.button:hover {
+  color: #fff;
+  background: #B74E38;
+}
+.muted {
+  color: #aaa;
+}
+@media (max-width: 540px) {
+
+  .logo {
+    width: 100%;
+    text-align: center;
+  }
+  h3 {
+    margin-top: 2em;
+  }
+  nav > a {
+    width: 100%;
+    text-align: center;
+  }
+  .title {
+    font-size: 205%;
+  }
+  .subtitle {
+    padding-right: 2px;
+    font-size: 74%;
+  }
+  .info-box {
+    margin-top: 2em;
+  }
+
+}

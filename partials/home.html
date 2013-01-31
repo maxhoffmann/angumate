@@ -1,0 +1,39 @@
+<header am-clip="down">
+  <hgroup class="box box-red">
+    <h1 class="title" am-clip="up" am-delay="500">Angumate</h1>
+    <h2 class="subtitle" am-clip="up" am-delay="900">simple animations for angular.js</h2>
+  </hgroup>
+</header>
+
+<div class="container">
+  <div class="info-box" am-fade>
+    <h2>Why should I use it?</h2>
+    <ul>
+      <li>Use animations now</li>
+      <li>Easy to setup</li>
+      <li>Hardware accelerated</li>
+      <li>No animations as fallback</li>
+      <li>Small footprint</li>
+    </ul>
+  </div>
+  <div class="info-box" am-fade am-delay="400">
+    <h2>Quick Setup</h2>
+    <ol>
+      <li>Download version 0.1 <a href="">here</a></li>
+      <li>include angumate in your html</li>
+      <li>inject angumate in your routing module</li>
+      <li>add angumate as promise to your routes</li>
+      <li>add directives to your elements</li>
+    </ol>
+  </div>
+  <div class="info-box" am-fade am-delay="800">
+    <h2>How does it work?</h2>
+    <ul>
+      <li>Angumate listens for route changes</li>
+      <li>styles are applied to directives</li>
+      <li>if another route event is fired:</li>
+      <li>one deferred is created for all animations </li>
+      <li>which is resolved after animations have finished</li>
+    </ul>
+  </div>
+</div>

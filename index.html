@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html ng-app="app">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Angumate 0.1</title>
+<link rel="stylesheet" href="styles.css">
+<script src="http://use.edgefonts.net/source-sans-pro:n4,n6,n7.js"></script>
+</head>
+<body>
+
+  <nav>
+    <a href="#/home" title="home" class="logo">Angumate <span class="muted">0.1<span></a>
+    <a href="#/download">1 Download</a><a href="#/installation">2 Installation</a><a href="#/usage">3 Usage</a>
+  </nav>
+
+  <section ng-view></section>
+
+  <footer>
+    <p>written by <a href="http://maximilianhoffmann.com">Maximilian Hoffmann</a></p>
+  </footer>
+
+  <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.0.4/angular.min.js"></script>
+  <script src="app.js"></script>
+  <script src="angumate.min.js"></script>
+</body>
+</html>

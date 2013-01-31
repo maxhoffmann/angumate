@@ -1,0 +1,36 @@
+<div class="container">
+  <h1 class="title" am-clip="up">Installation</h1>
+  <h2 class="subtitle" am-clip="up" am-delay="400">inject the module and prepare your routes</h2>
+
+  <h3 am-fade>1 Include Angumate</h3>
+  <pre><code am-fade am-delay="200">...
+  &lt;script src=&quot;//ajax.googleapis.com/ajax/libs/angularjs/1.0.4/angular.min.js&quot;&gt;&lt;/script&gt;
+  &lt;script src=&quot;app.js&quot;&gt;&lt;/script&gt;
+  <b>&lt;script src=&quot;angumate.min.js&quot;&gt;&lt;/script&gt;</b>
+&lt;/body&gt;
+&lt;/html&gt;</code></pre>
+
+  <h3 am-fade am-delay="400">2 Inject Angumate to your main module</h3>
+<pre><code am-fade am-delay="800">var app = angular.module('app', [<b>Angumate</b>]);</code></pre>
+
+  <h3 am-fade am-delay="1000">3 Add Angumate as a promise to your routes</h3>
+<pre><code am-fade am-delay="1200">.when('/home', {
+  templateUrl: 'partials/home.html',
+  <b>resolve: ['angumate', function(angumate) {
+    return angumate.promise();
+  }]</b>
+})
+
+<b>or</b>
+
+.when('/download', {
+  templateUrl: 'partials/download.html',
+  <b>resolve: {
+    angumate: ['angumate', function(angumate) {
+      return angumate.promise();
+    }]
+  }</b>
+})</code></pre>
+
+
+</div>
