@@ -25,3 +25,6 @@ simple animations for angular.js
 - if another route event is fired:
 - one deferred is created for all animations
 - which is resolved after animations have finished
+
+##License
+Angumate is licensed under [MIT License](http://opensource.org/licenses/MIT)
