@@ -1,4 +1,4 @@
-Angumate
+ANGUMATE v0.1
 ========
 
 simple animations for angular.js
