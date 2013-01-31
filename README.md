@@ -13,7 +13,7 @@ simple animations for angular.js
 - Small footprint
 
 ## Quick Setup
-- Download version 0.1 here
+- [Download version 0.1](https://github.com/maxhoffmann/angumate/blob/master/angumate.min.js)
 - include angumate in your html
 - inject angumate in your routing module
 - add angumate as promise to your routes
