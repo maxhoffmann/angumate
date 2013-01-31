@@ -1,4 +1,4 @@
-angumate
+Angumate
 ========
 
 simple animations for angular.js
